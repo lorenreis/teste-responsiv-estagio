@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Bebas-Neue-Light';
+    src:url('Bebas-Neue-Light.ttf.woff') format('woff'),
+        url('Bebas-Neue-Light.ttf.svg#Bebas-Neue-Light') format('svg'),
+        url('Bebas-Neue-Light.ttf.eot'),
+        url('Bebas-Neue-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background: url('fotofundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.content {
+    text-align: right;
+    color: white;
+    width: 100%;
+}
+.content h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 0 140px;
+    position: absolute;
+    top: 12.3vh;
+    right: 20px;
+    color: #3A3A3A;
+}
+.content h2 {
+    font-family: 'Bebas-Neue-Light', sans-serif !important;
+    font-size: 6.2vh;
+    letter-spacing: 3px;
+    padding: 0 140px;
+    position: absolute;
+    top: 42vh;
+    right: 20px;
+    color: #3A3A3A;
+}
+.content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.95vh;
+    letter-spacing: 0;
+    line-height: 2;
+    padding: 0 140px;
+    position: absolute;
+    font-weight: 300;
+    top: 58vh;
+    right: 20px;
+    color: #ffffff;
+}
+.content img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content .logo {
+    position: absolute ;
+    top: 2.5vh;
+    left: 6vw;
+    width: 200px; 
+    height: auto; 
+}
+.barra {
+    position: absolute;
+    top: 4vh;
+    right: 6vw;
+    width: 26vw; 
+    height: auto; 
+    z-index: 1; 
+}
+
+.btn {
+    font-size: 2vh;
+    position: absolute;
+    top: calc(60vh + 5em); 
+    right: 20px;
+    padding: 10px 40px;
+    background-color: white; 
+    color: #3A3A3A; 
+    border: none; 
+    cursor: pointer; 
+    text-decoration: none; 
+
+}
+
+@media (max-width: 850px) {
+    .content h1 {
+        font-size: 10vh !important;
+        top: 35vh !important;
+        padding: 0 40px !important;
+    }
+    .content h2 {
+        font-size: 4vh !important;
+        top: 50vh !important;
+        padding: 0 40px !important;
+    }
+    .content p {
+        font-size: 1.9vh !important;
+        top: 63vh !important;
+        padding: 0 40px !important;
+        line-height: 2;
+    }
+    .btn {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        top: 86vh !important; 
+        right: 55px !important;
+        padding: 0vh 5vw;
+        background-color: white; 
+        color: #3A3A3A; 
+        border: none; 
+        cursor: pointer;
+        text-decoration: none; 
+
+    }
+}
+
+@media (max-width: 1500px) {
+    .content h1 {
+        font-size: 22vh;
+        top: 15vh;
+        padding: 0 80px;
+    }
+    .content h2 {
+        font-size: 6.8vh;
+        top: 46vh;
+        padding: 0 80px;
+    }
+    .content p {
+        font-size: 2.2vh;
+        top: 59vh;
+        padding: 0 80px;
+        line-height: 2;
+    }
+    .btn {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        top: 77vh; 
+        right: 100px;
+        padding: 0vh 5vw;
+        background-color: white; 
+        color: #3A3A3A; 
+        border: none; 
+        cursor: pointer;
+        text-decoration: none; 
+
+    }
+}
+
+@media (min-width: 1501px) {
+    .content h1 {
+        font-size: 22vh;
+        top: 14vh;
+        padding: 0 120px;
+    }
+    .content h2 {
+        font-size: 6.9vh;
+        top: 48vh;
+        padding: 0 120px;
+    }
+    .content p {
+        font-size: 2.15vh;
+        top: 62vh;
+        padding: 0 120px;
+        line-height: 2;
+    }
+    .btn {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 48px;
+        top: 80vh; 
+        right: 140px;
+        padding: 0px 90px;
+        background-color: white; 
+        color: #3A3A3A; 
+        border: none; 
+        cursor: pointer; 
+        text-decoration: none; 
+    }
+}
